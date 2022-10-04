@@ -6,3 +6,13 @@ body {
     justify-content: space-between;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+}
