@@ -42,18 +42,39 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    height: 300px;
+    height: 500px;
 }
 
-.opener-block {
+.opener-text-block {
     display: flex;
     flex-direction: column;
+    width: 425px;
+
 }
 
 .opener-main {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+}
+
+.opener-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up-button-1 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: bold;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: #3882F6;
 }
 
 .random-info {
