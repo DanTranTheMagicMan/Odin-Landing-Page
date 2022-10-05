@@ -94,10 +94,33 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 500px;
+}
+
+.random-info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+
 }
 
 .random-info-blocks {
     display: flex;
+    gap: 30px;
+}
+
+.random-info-block {
+    height: 100px;
+    width: 100px;
+}
+
+.random-info-image {
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-radius: 7px;
 }
 
 .quote-block {
