@@ -16,3 +16,12 @@ body {
     display: flex;
     gap: 25px;
 }
+
+.opener {
+    display: flex;
+}
+
+.opener-block {
+    display: flex;
+    flex-direction: column;
+}
