@@ -25,3 +25,22 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-info-blocks {
+    display: flex;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker{
+    align-self: flex-end;
+}
