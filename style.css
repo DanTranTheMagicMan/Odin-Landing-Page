@@ -160,9 +160,57 @@ a {
     font-size: 20px;
 }
 
+.sign-up-section {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .sign-up-bar {
     display: flex;
     justify-content: space-between;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 40px;
+    padding: 70px;
+}
+
+.sign-up-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up-main {
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign-up-text {
+    color: #E5E7EB;
+}
+
+.sign-up-button-2-container {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-button-2 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: bold;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid;
+    border-color: #F9FAF8;
 }
 
 .footer {
