@@ -95,6 +95,8 @@ a {
     flex-direction: column;
     align-items: center;
     height: 500px;
+    gap: 30px;
+    padding-top: 50px;
 }
 
 .random-info-title {
@@ -106,21 +108,29 @@ a {
 
 .random-info-blocks {
     display: flex;
-    gap: 30px;
+    gap: 100px;
 }
 
 .random-info-block {
     height: 100px;
-    width: 100px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.random-info-text {
+    text-align: center;
 }
 
 .random-info-image {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: solid;
     border-color: #3882F6;
     border-width: 5px;
     border-radius: 7px;
+    flex: 0 0 auto;
 }
 
 .quote-block {
